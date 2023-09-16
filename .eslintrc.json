@@ -16,6 +16,8 @@
         "indent":"off",
         "eol-last":"off",
         "object-curly-newline":"off",
-        "max-len":"off"
+        "max-len":"off",
+        "no-underscore-dangle":"off",
+        "no-trailing-spaces": "off"
     }
 }
