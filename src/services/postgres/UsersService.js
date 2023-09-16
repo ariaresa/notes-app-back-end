@@ -22,7 +22,7 @@ class UsersService {
             values: [id, username, hashedPassword, fullname],
         };
 
-        const result = this._pool.query(query);
+        const result = await this._pool.query(query);
 
         if (!result.rows.length) {
             throw new InvariantError('User gagal ditambahkan');
